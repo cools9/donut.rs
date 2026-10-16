@@ -2,6 +2,10 @@
 name = "donut"
 version = "0.1.0"
 edition = "2024"
+repository = "https://github.com/cools9/donut.rs"
+license = "MIT"
+description="A simple donut.c implementation written in Rust"
+readme = "README.md"
 
 [dependencies]
 crossterm = "0.29.0"
