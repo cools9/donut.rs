@@ -6,6 +6,13 @@ repository = "https://github.com/cools9/donut.rs"
 license = "MIT"
 description="A simple donut.c implementation written in Rust"
 readme = "README.md"
+include = [
+    "src/**",
+    "Cargo.toml",
+    "Cargo.lock",
+    "README.md",
+    "LICENSE*",
+]
 
 [dependencies]
 crossterm = "0.29.0"
