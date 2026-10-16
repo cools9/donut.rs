@@ -14,6 +14,13 @@ edition = "2024"
 name = "donut-rs"
 version = "0.1.0"
 build = false
+include = [
+    "src/**",
+    "Cargo.toml",
+    "Cargo.lock",
+    "README.md",
+    "LICENSE*",
+]
 autolib = false
 autobins = false
 autoexamples = false
