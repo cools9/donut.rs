@@ -82,7 +82,7 @@ dependencies = [
 ]
 
 [[package]]
-name = "donut"
+name = "donut-rs"
 version = "0.1.0"
 dependencies = [
  "crossterm",
